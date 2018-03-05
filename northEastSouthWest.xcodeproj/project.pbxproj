@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB4C918B2010136600DBDB8D /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4C918A2010136600DBDB8D /* OtherViewController.swift */; };
+		ABF4F906200FE24900FA7054 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF4F905200FE24900FA7054 /* AppDelegate.swift */; };
+		ABF4F908200FE24900FA7054 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF4F907200FE24900FA7054 /* ViewController.swift */; };
+		ABF4F90B200FE24900FA7054 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABF4F909200FE24900FA7054 /* Main.storyboard */; };
+		ABF4F90D200FE24900FA7054 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABF4F90C200FE24900FA7054 /* Assets.xcassets */; };
+		ABF4F910200FE24900FA7054 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABF4F90E200FE24900FA7054 /* LaunchScreen.storyboard */; };
+		ABF4F91B200FE24900FA7054 /* northEastSouthWestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF4F91A200FE24900FA7054 /* northEastSouthWestTests.swift */; };
+		ABF4F926200FE24900FA7054 /* northEastSouthWestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF4F925200FE24900FA7054 /* northEastSouthWestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABF4F917200FE24900FA7054 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABF4F8FA200FE24900FA7054 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABF4F901200FE24900FA7054;
+			remoteInfo = northEastSouthWest;
+		};
+		ABF4F922200FE24900FA7054 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABF4F8FA200FE24900FA7054 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABF4F901200FE24900FA7054;
+			remoteInfo = northEastSouthWest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB4C918A2010136600DBDB8D /* OtherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherViewController.swift; sourceTree = "<group>"; };
+		ABF4F902200FE24900FA7054 /* northEastSouthWest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = northEastSouthWest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF4F905200FE24900FA7054 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ABF4F907200FE24900FA7054 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ABF4F90A200FE24900FA7054 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABF4F90C200FE24900FA7054 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABF4F90F200FE24900FA7054 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ABF4F911200FE24900FA7054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABF4F916200FE24900FA7054 /* northEastSouthWestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = northEastSouthWestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF4F91A200FE24900FA7054 /* northEastSouthWestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = northEastSouthWestTests.swift; sourceTree = "<group>"; };
+		ABF4F91C200FE24900FA7054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABF4F921200FE24900FA7054 /* northEastSouthWestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = northEastSouthWestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF4F925200FE24900FA7054 /* northEastSouthWestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = northEastSouthWestUITests.swift; sourceTree = "<group>"; };
+		ABF4F927200FE24900FA7054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABF4F8FF200FE24900FA7054 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF4F913200FE24900FA7054 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF4F91E200FE24900FA7054 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABF4F8F9200FE24900FA7054 = {
+			isa = PBXGroup;
+			children = (
+				ABF4F904200FE24900FA7054 /* northEastSouthWest */,
+				ABF4F919200FE24900FA7054 /* northEastSouthWestTests */,
+				ABF4F924200FE24900FA7054 /* northEastSouthWestUITests */,
+				ABF4F903200FE24900FA7054 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABF4F903200FE24900FA7054 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABF4F902200FE24900FA7054 /* northEastSouthWest.app */,
+				ABF4F916200FE24900FA7054 /* northEastSouthWestTests.xctest */,
+				ABF4F921200FE24900FA7054 /* northEastSouthWestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABF4F904200FE24900FA7054 /* northEastSouthWest */ = {
+			isa = PBXGroup;
+			children = (
+				ABF4F905200FE24900FA7054 /* AppDelegate.swift */,
+				ABF4F907200FE24900FA7054 /* ViewController.swift */,
+				ABF4F909200FE24900FA7054 /* Main.storyboard */,
+				AB4C918A2010136600DBDB8D /* OtherViewController.swift */,
+				ABF4F90C200FE24900FA7054 /* Assets.xcassets */,
+				ABF4F90E200FE24900FA7054 /* LaunchScreen.storyboard */,
+				ABF4F911200FE24900FA7054 /* Info.plist */,
+			);
+			path = northEastSouthWest;
+			sourceTree = "<group>";
+		};
+		ABF4F919200FE24900FA7054 /* northEastSouthWestTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABF4F91A200FE24900FA7054 /* northEastSouthWestTests.swift */,
+				ABF4F91C200FE24900FA7054 /* Info.plist */,
+			);
+			path = northEastSouthWestTests;
+			sourceTree = "<group>";
+		};
+		ABF4F924200FE24900FA7054 /* northEastSouthWestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ABF4F925200FE24900FA7054 /* northEastSouthWestUITests.swift */,
+				ABF4F927200FE24900FA7054 /* Info.plist */,
+			);
+			path = northEastSouthWestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABF4F901200FE24900FA7054 /* northEastSouthWest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABF4F92A200FE24900FA7054 /* Build configuration list for PBXNativeTarget "northEastSouthWest" */;
+			buildPhases = (
+				ABF4F8FE200FE24900FA7054 /* Sources */,
+				ABF4F8FF200FE24900FA7054 /* Frameworks */,
+				ABF4F900200FE24900FA7054 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = northEastSouthWest;
+			productName = northEastSouthWest;
+			productReference = ABF4F902200FE24900FA7054 /* northEastSouthWest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABF4F915200FE24900FA7054 /* northEastSouthWestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABF4F92D200FE24A00FA7054 /* Build configuration list for PBXNativeTarget "northEastSouthWestTests" */;
+			buildPhases = (
+				ABF4F912200FE24900FA7054 /* Sources */,
+				ABF4F913200FE24900FA7054 /* Frameworks */,
+				ABF4F914200FE24900FA7054 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABF4F918200FE24900FA7054 /* PBXTargetDependency */,
+			);
+			name = northEastSouthWestTests;
+			productName = northEastSouthWestTests;
+			productReference = ABF4F916200FE24900FA7054 /* northEastSouthWestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ABF4F920200FE24900FA7054 /* northEastSouthWestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABF4F930200FE24A00FA7054 /* Build configuration list for PBXNativeTarget "northEastSouthWestUITests" */;
+			buildPhases = (
+				ABF4F91D200FE24900FA7054 /* Sources */,
+				ABF4F91E200FE24900FA7054 /* Frameworks */,
+				ABF4F91F200FE24900FA7054 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABF4F923200FE24900FA7054 /* PBXTargetDependency */,
+			);
+			name = northEastSouthWestUITests;
+			productName = northEastSouthWestUITests;
+			productReference = ABF4F921200FE24900FA7054 /* northEastSouthWestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABF4F8FA200FE24900FA7054 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Maria Rojo";
+				TargetAttributes = {
+					ABF4F901200FE24900FA7054 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					ABF4F915200FE24900FA7054 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ABF4F901200FE24900FA7054;
+					};
+					ABF4F920200FE24900FA7054 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ABF4F901200FE24900FA7054;
+					};
+				};
+			};
+			buildConfigurationList = ABF4F8FD200FE24900FA7054 /* Build configuration list for PBXProject "northEastSouthWest" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABF4F8F9200FE24900FA7054;
+			productRefGroup = ABF4F903200FE24900FA7054 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABF4F901200FE24900FA7054 /* northEastSouthWest */,
+				ABF4F915200FE24900FA7054 /* northEastSouthWestTests */,
+				ABF4F920200FE24900FA7054 /* northEastSouthWestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABF4F900200FE24900FA7054 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF4F910200FE24900FA7054 /* LaunchScreen.storyboard in Resources */,
+				ABF4F90D200FE24900FA7054 /* Assets.xcassets in Resources */,
+				ABF4F90B200FE24900FA7054 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF4F914200FE24900FA7054 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF4F91F200FE24900FA7054 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABF4F8FE200FE24900FA7054 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF4F908200FE24900FA7054 /* ViewController.swift in Sources */,
+				AB4C918B2010136600DBDB8D /* OtherViewController.swift in Sources */,
+				ABF4F906200FE24900FA7054 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF4F912200FE24900FA7054 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF4F91B200FE24900FA7054 /* northEastSouthWestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF4F91D200FE24900FA7054 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF4F926200FE24900FA7054 /* northEastSouthWestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABF4F918200FE24900FA7054 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABF4F901200FE24900FA7054 /* northEastSouthWest */;
+			targetProxy = ABF4F917200FE24900FA7054 /* PBXContainerItemProxy */;
+		};
+		ABF4F923200FE24900FA7054 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABF4F901200FE24900FA7054 /* northEastSouthWest */;
+			targetProxy = ABF4F922200FE24900FA7054 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABF4F909200FE24900FA7054 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABF4F90A200FE24900FA7054 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABF4F90E200FE24900FA7054 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABF4F90F200FE24900FA7054 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABF4F928200FE24900FA7054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ABF4F929200FE24900FA7054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABF4F92B200FE24900FA7054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = northEastSouthWest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrojo.northEastSouthWest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABF4F92C200FE24900FA7054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = northEastSouthWest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrojo.northEastSouthWest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ABF4F92E200FE24A00FA7054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = northEastSouthWestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrojo.northEastSouthWestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/northEastSouthWest.app/northEastSouthWest";
+			};
+			name = Debug;
+		};
+		ABF4F92F200FE24A00FA7054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = northEastSouthWestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrojo.northEastSouthWestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/northEastSouthWest.app/northEastSouthWest";
+			};
+			name = Release;
+		};
+		ABF4F931200FE24A00FA7054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = northEastSouthWestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrojo.northEastSouthWestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = northEastSouthWest;
+			};
+			name = Debug;
+		};
+		ABF4F932200FE24A00FA7054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = northEastSouthWestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrojo.northEastSouthWestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = northEastSouthWest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABF4F8FD200FE24900FA7054 /* Build configuration list for PBXProject "northEastSouthWest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF4F928200FE24900FA7054 /* Debug */,
+				ABF4F929200FE24900FA7054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABF4F92A200FE24900FA7054 /* Build configuration list for PBXNativeTarget "northEastSouthWest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF4F92B200FE24900FA7054 /* Debug */,
+				ABF4F92C200FE24900FA7054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABF4F92D200FE24A00FA7054 /* Build configuration list for PBXNativeTarget "northEastSouthWestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF4F92E200FE24A00FA7054 /* Debug */,
+				ABF4F92F200FE24A00FA7054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABF4F930200FE24A00FA7054 /* Build configuration list for PBXNativeTarget "northEastSouthWestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF4F931200FE24A00FA7054 /* Debug */,
+				ABF4F932200FE24A00FA7054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABF4F8FA200FE24900FA7054 /* Project object */;
+}
